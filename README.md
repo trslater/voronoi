@@ -1,6 +1,8 @@
 Voronoi
 =======
 
+An attempt to understand and implement basic Voronoi diagrams in Three.js.
+
 Setting Up the Environment
 --------------------------
 
