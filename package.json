@@ -12,9 +12,10 @@
   "license": "MIT",
   "dependencies": {
     "dat.gui": "^0.7.9",
-    "three": "^0.141.0"
+    "pixi.js": "^6.5.2"
   },
   "devDependencies": {
-    "parcel": "^2.6.0"
+    "parcel": "^2.6.0",
+    "querystring-es3": "^0.2.1"
   }
 }

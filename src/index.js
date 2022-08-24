@@ -1,12 +1,6 @@
 import { GUI } from "dat.gui"
 
-import { makeEnvironment } from "./environment.js"
+import { makeApp } from "./app.js"
 
 const gui = new GUI()
-const env = makeEnvironment(document.getElementById("voronoi"))
-
-window.onresize = () => {
-    env.resize()
-}
-
-env.start()
+const app = makeApp(document.getElementById("voronoi"))
