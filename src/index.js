@@ -1,11 +1,13 @@
 import { GUI } from "dat.gui"
 
+const pixelSize = 10
+
 const gui = new GUI()
 
 const viewport = document.getElementById("viewport")
 
-const width = viewport.offsetWidth
-const height = viewport.offsetHeight
+const width = Math.floor(viewport.offsetWidth/pixelSize)
+const height = Math.floor(viewport.offsetHeight/pixelSize)
 
 const canvas = document.createElement("canvas")
 
